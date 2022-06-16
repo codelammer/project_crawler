@@ -1,0 +1,28 @@
+{
+  "name": "project_crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crawler.js",
+  "scripts": {
+    "start": "nodemon parser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/codelammer/project_crawler.git"
+  },
+  "author": "Codelammer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codelammer/project_crawler/issues"
+  },
+  "homepage": "https://github.com/codelammer/project_crawler#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
