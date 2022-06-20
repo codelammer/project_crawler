@@ -9,8 +9,8 @@ A script that crawls through http://kenyalaw.org/caselaw/cases/advanced_search/ 
 
 # Setup
 Run **npm init** to initialize node modules.\
-Run **npm install** to install dependancies.\
+Run **npm install** to install dependancies.
 
 # How to run
 Run **npm start** to run app\
-An array will be printed to the console\
+An array will be printed to the console
