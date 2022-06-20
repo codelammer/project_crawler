@@ -7,10 +7,10 @@ A script that crawls through http://kenyalaw.org/caselaw/cases/advanced_search/ 
   date: "",
 }
 
--------SETUP------
-Run **npm init** to initialize node modules.
-Run **npm install** to install dependancies.
+# Setup
+Run **npm init** to initialize node modules.\
+Run **npm install** to install dependancies.\
 
--------How to run------
-Run **npm start** to run app
-An array will be printed to the console
+# How to run
+Run **npm start** to run app\
+An array will be printed to the console\
