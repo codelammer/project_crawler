@@ -19,10 +19,13 @@ const parser = async (fileLocation) => {
         let cheerioTitle = $(this).find('table tr td h2').text().trim(); 
         let cheerioUrl = $(this).find('.show-more.pull-right').attr('href');
         let tempDate = $(this).find('table tr td.date-delivered').html().split('<span class="meta_title">Date Delivered: </span>')[1];
-        let cheerioDate = moment(tempDate, 'DD MMM YYYY').format("YYYYMMDD"); //parse date with moment to YYYYMMDD        
+        let cheerioDate = moment(tempDate, 'DD MMM YYYY').format("YYYY-MM-DD"); //parse date with moment to YYYYMMDD        
         cases.push({ title: cheerioTitle, url: cheerioUrl, date: cheerioDate });
     });
+
     console.log(cases);
+    
 }
 
-parser("ref_files/1.html");
+// parser("ref_files/1.html");
+module.exports = parser;

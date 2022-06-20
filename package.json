@@ -4,7 +4,7 @@
   "description": "",
   "main": "crawler.js",
   "scripts": {
-    "start": "nodemon parser.js",
+    "start": "nodemon crawler.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
