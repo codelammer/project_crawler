@@ -4,7 +4,7 @@ A script that crawls through http://kenyalaw.org/caselaw/cases/advanced_search/ 
 {\
 &emsp; title: "",\
 &emsp; url: "",\
-&emsp; date: "",
+&emsp; date: "",\
 }
 
 # Setup
